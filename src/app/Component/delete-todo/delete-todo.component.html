@@ -1,0 +1,14 @@
+<div class="delete-todo">
+    <h1>Delete Todo</h1>
+  
+    <div *ngIf="selectedTodo">
+      <h2>Selected Todo Details</h2>
+      <p><strong>Title:</strong> {{ selectedTodo.todo_title }}</p>
+      <p><strong>Description:</strong> {{ selectedTodo.todo_description }}</p>
+      <p><strong>User Id:</strong> {{ selectedTodo.user_id }}</p>
+      <p><strong>Created at:</strong> {{ selectedTodo.createdAt }}</p>
+      <p><strong>Todo Id:</strong> {{ selectedTodo.id }}</p>
+    </div>
+  </div>
+  
+<button (click)="onDeleteTodo()">Delete Todo</button>

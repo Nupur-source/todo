@@ -1,0 +1,62 @@
+/* Add this CSS to style your page */
+
+/* Style the entire delete-todo section */
+.delete-todo {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Style the h1 element */
+.delete-todo h1 {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Style the selected todo details section */
+.delete-todo div {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Style the details section's headings */
+.delete-todo h2,
+.delete-todo p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style strong elements within the details section */
+.delete-todo strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Style the Delete Todo button */
+/* Center the button */
+button {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  display: block; /* Make the button a block element */
+  margin-left: auto; /* Set the left margin to "auto" */
+  margin-right: auto; /* Set the right margin to "auto" */
+  width: 150px; /* Adjust the width as needed */
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+/* Add other styles as needed */

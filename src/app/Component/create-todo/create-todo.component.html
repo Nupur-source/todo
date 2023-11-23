@@ -1,0 +1,14 @@
+<div class="centered-div">
+  <h2>Create Task</h2>
+  <form (submit)="onSubmit()">
+    <div>
+      <label for="todo_title">Title:</label>
+      <input type="text" id="todo_title" name="todo_title" [(ngModel)]="create.todo_title" required>
+    </div>
+    <div>
+      <label for="todo_description">Description:</label>
+      <textarea id="todo_description" name="todo_description" [(ngModel)]="create.todo_description" required></textarea>
+    </div>
+    <button type="submit">Create Task</button>
+  </form>
+</div>

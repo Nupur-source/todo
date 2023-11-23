@@ -1,0 +1,98 @@
+/* Add this CSS to style your page */
+
+/* Style the entire dashboard */
+.dashboard {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.welcome-section {
+  text-align: center;
+  background-color: #3498db; /* Set the background color to your preferred color */
+  padding: 20px;
+}
+
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Change the background color of the create-or-find-section to white */
+.create-or-find-section {
+  background-color: #fff; /* Set the background color to white */
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.create-or-find-section a,
+.create-or-find-section button {
+  padding: 10px 20px;
+  background-color: #c0392b;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-or-find-section a:hover,
+.create-or-find-section button:hover {
+  background-color: #a52714;
+}
+
+/* Style the todo data section */
+.todo-data-section {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Style the table */
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todo-table th,
+.todo-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.todo-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.todo-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.todo-table tr:hover {
+  background-color: #d5d5d5;
+}
+
+/* Style the Edit button */
+button {
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Add other styles as needed */
